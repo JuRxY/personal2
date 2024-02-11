@@ -1,6 +1,20 @@
 :root {
+  color-scheme: dark;
+  scroll-behavior: smooth;
   --green: rgb(0, 219, 26);
   --white: #cacac8;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #111111;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
 }
 
 * {
@@ -12,7 +26,6 @@
 
 body {
   min-height: 100vh;
-  background-color: #050908;
   margin: 0px auto;
   padding: 0px 10px;
   max-width: 960px;
@@ -32,6 +45,7 @@ body {
   top: calc(var(--circle-size) / 2 * -1);
   left: calc(var(--circle-size) / 2 * -1);
   pointer-events: none;
+  z-index: 1;
 }
 
 .title {
@@ -71,6 +85,12 @@ a.nav {
   border-radius: 5px;
   display: flex;
   align-items: center;
+  transition: all 250ms;
+}
+
+a.nav:hover {
+  border: 1px solid var(--green);
+  transform: translateY(-1px);
 }
 
 a {
@@ -98,4 +118,63 @@ h1 {
 .project hr {
   border: 1px solid #333;
   margin: 15px 0;
+}
+
+/* Buttons */
+.basic-btn {
+  display: none;
+  align-items: center;
+  background-color: #111111;
+  border: 1px solid var(--white);
+  border-radius: .25rem;
+  box-shadow: rgba(202, 202, 200, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: var(--white);
+  display: inline-flex;
+  font-family: monospace;
+  font-size: 16px;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.basic-btn:hover,
+.basic-btn:focus {
+  border-color: var(--green);
+  box-shadow: rgba(0, 219, 26, 0.1) 0 4px 12px;
+  color: var(--green);
+}
+
+.basic-btn:hover {
+  transform: translateY(-1px);
+}
+
+.basic-btn:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+@media screen and (max-width: 600px) {
+  a.nav-left {
+    display: none;
+  }
+  nav {
+    justify-content: center;
+  }
+  * {
+    cursor: auto;
+  }
 }
