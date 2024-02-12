@@ -8,7 +8,7 @@ Attending school at <a href="https://www.vegova.si/">vegova</a> for {days}
 <div class="project">
     <span style="color: var(--green); font-size: 20px;">Vrhnichan</span><hr>
     A simple website written in python with Flask. It uses the lpp.si api to predict bus arrivals to the selected station. <hr>
-    <a href="https://github.com/JuRxY/vrhnichan">Repo</a> | <a href="https://replit.com/@JureGrcar/vrhnichan/">Site</a>
+    <a href="https://github.com/JuRxY/vrhnichan">Repo</a><!--| <a href="https://replit.com/@JureGrcar/vrhnichan/">Site</a>-->
 </div>
 
 <div class="project">
