@@ -113,11 +113,16 @@ h1 {
   border: 2px solid #333;
   border-radius: 20px;
   margin: 30px 0;
+  transition-duration: 300ms;
 }
 
 .project hr {
   border: 1px solid #333;
   margin: 15px 0;
+}
+
+.project:hover {
+  border: 2px solid var(--green);
 }
 
 /* Buttons */
