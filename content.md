@@ -1,6 +1,6 @@
 # Info
 Currently {age} years old. <br>
-Attending school at <a href="https://www.vegova.si/">vegova</a> for {days}
+Attending school at <a href="https://www.vegova.si/">vegova</a> for {days} more days.
 
 <hr>
 
