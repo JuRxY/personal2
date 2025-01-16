@@ -6,8 +6,14 @@ Attending school at <a href="https://www.vegova.si/">vegova</a> for {days} more 
 
 # Projects
 <div class="project">
+    <span style="color: var(--green); font-size: 20px;">Enkrypton</span><hr>
+    Encryption gui made in python, using AES along side a user assigned password. (Compression and optimisation on the way)<hr>
+    <a href="https://github.com/JuRxY/Enkrypton">Repo</a> | <a href="#">website (soon)</a>
+</div>
+
+<div class="project">
     <span style="color: var(--green); font-size: 20px;">Vrhnichan</span><hr>
-    A simple website written in python with Flask. It uses the lpp.si api to predict bus arrivals to the selected station. <hr>
+    A simple website written in python with Flask. It uses the lpp.si api to predict bus arrivals to the selected station. (ps. broken again)<hr>
     <a href="https://github.com/JuRxY/vrhnichan">Repo</a><!--| <a href="https://replit.com/@JureGrcar/vrhnichan/">Site</a>-->
 </div>
 
@@ -15,12 +21,6 @@ Attending school at <a href="https://www.vegova.si/">vegova</a> for {days} more 
     <span style="color: var(--green); font-size: 20px;">Personal website</span><hr>
     The website that got replaced by this one<hr>
     <a href="https://github.com/JuRxY/personal">Repo</a> | <a href="http://jure.ugo.si/">Site</a>
-</div>
-
-<div class="project">
-    <span style="color: var(--green); font-size: 20px;">Weather</span><hr>
-    A simple webapp that tells the weather of a predefined geographic position using the https://open-meteo.com/ API.<hr>
-    <a href="https://github.com/JuRxY/weather">Repo</a> | <a href="https://jurxy.github.io/weather/">Site</a>
 </div>
 
 <div class="project">
